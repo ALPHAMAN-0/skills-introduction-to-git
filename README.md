@@ -6,9 +6,13 @@
 
 ```mermaid
 flowchart LR
-    User --> Entry[Entry point]
-    Entry --> Logic[Application logic]
-    Logic --> Output[Output]
+    Student --> Exercises[Git exercises]
+    Exercises --> Commits[Practice commits]
+    Exercises --> Branches[Branch workflows]
+    Exercises --> Remotes[Remote / push / pull]
+    Commits --> History[Git history]
+    Branches --> History
+    Remotes --> History
 ```
 
 
