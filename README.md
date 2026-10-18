@@ -6,11 +6,9 @@
 
 ```mermaid
 flowchart LR
-    A[User] --> B[Skills Introduction To Git]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+    User --> Entry[Entry point]
+    Entry --> Logic[Application logic]
+    Logic --> Output[Output]
 ```
 
 
